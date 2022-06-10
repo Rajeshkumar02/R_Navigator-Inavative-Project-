@@ -1,0 +1,56 @@
+<html>
+<header>
+    <title>R Navigator</title>
+    <link rel="stylesheet" href="./index.css">
+</header>
+
+<body>
+
+    <span id="root">
+        <section class="section-all">
+            <main class="main" role="main">
+                <div class="wrapper">
+                    <article class="article">
+                        <div class="content">
+                            <div class="login-box">
+                                <div class="header">
+                                    <img class="logo" src="./src/Login_Image.png" alt="R_Navigator">
+                                </div><!-- Header end -->
+                                <div class="form-wrap">
+                                    <form class="form">
+
+                                        <div class="input-box" style="padding-top: 5%;">
+                                            <input type="text" id="inputEmail" aria-describedby=""
+                                                placeholder="Enter your email" aria-required="true" maxlength="30"
+                                                autocapitalize="off" autocorrect="off" name="username" value=""
+                                                required>
+                                        </div>
+
+                                        <div class="input-box" style="padding-top: 5%;">
+                                            <input type="password" name="password" id="inputPassword"
+                                                placeholder="Enter your Password" aria-describedby="" maxlength="30"
+                                                aria-required="true" autocapitalize="off" autocorrect="off" required>
+                                        </div>
+                                    </form>
+
+                                    <span class="button-box" style="padding-top: 5%;">
+                                        <button onclick="login(event)" class="btn" type="submit" name="submit">Log
+                                            in</button>
+                                    </span>
+                                </div> <!-- Form-wrap end -->
+                            </div> <!-- Login-box end -->
+                        </div> <!-- Content end -->
+                    </article>
+                </div> <!-- Wrapper end -->
+            </main>
+
+        </section>
+    </span> <!-- Root -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-firestore.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
