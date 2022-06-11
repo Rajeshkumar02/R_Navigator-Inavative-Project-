@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "846062743189",
+    "project_id": "inavative-project",
+    "storage_bucket": "inavative-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846062743189:android:af11bc9554503b7917b59c",
+        "android_client_info": {
+          "package_name": "com.example.r_navigater"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846062743189-mftbc98hb0g9kteph3j1p8j6mas1n2fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXTSfrS1sf8JKPolT0ewB_F8tSMBxLN3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846062743189-mftbc98hb0g9kteph3j1p8j6mas1n2fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
